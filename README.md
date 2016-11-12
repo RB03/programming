@@ -1,2 +1,2 @@
 # programming
-Solved challeges from Hackerrank and other programming websites.
+Solved challenges from Hackerrank and other programming websites.
