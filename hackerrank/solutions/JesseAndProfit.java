@@ -1,13 +1,30 @@
-package hackerrank.algorithms;
+package hackerrank.solutions;
 
 import java.util.*;
 
 /**
  * Created by Rohit
  * on 8/7/2016.
- * SUCCESSFUL
  */
-public class JesseAndProfit2 {
+
+/*
+morgan stanley 2016
+
+Sample Input
+6 2
+3 1 2 1 4 5
+3
+2
+
+Sample Output
+4 5
+3 5
+
+Explanation
+To achieve a profit of 3, he can either buy on day 2 or day 4 and sell on day 5 or he can buy on day 3 and sell on day 6. The one that takes the minimum number of days is the one where he buys on day 4 and sells on day 5. So the answer is 4 5.
+ */
+
+public class JesseAndProfit {
     static HashMap<Long, ArrayList<Integer>> profits = new HashMap<>();
     static ArrayList<Long> val = new ArrayList<>();
 
